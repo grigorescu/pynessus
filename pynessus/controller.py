@@ -1,6 +1,6 @@
-# pynessus.py
+# controller.py
 # Python module to interact with a Nessus 4.x scanner via XMLRPC.
-# http://code.google.com/p/pynessus/
+# https://github.com/grigorescu/pynessus
 #
 # Copyright (C) 2010 Dustin Seibel
 #
@@ -21,6 +21,7 @@
 # 2010-08-12:	0.1.0: Initial version.
 # 2011-03-12:	0.2.1: Added a bunch of methods and robustified everything.
 # 2011-11-15:	0.2.2: Added delete_report method. (thanks David Lladr!)
+# 2011-12-30:   0.2.3: Refactored and made pip-friendly.
 import sys
 import urllib2
 from urlparse import urljoin

@@ -1,6 +1,6 @@
-# dotnessus_v2.py
+# parser.py
 # Python module to deal with Nessus .nessus (v2) files
-# http://code.google.com/p/pynessus/
+# https://github.com/grigorescu/pynessus
 #
 # Copyright (C) 2010 Dustin Seibel
 #
@@ -22,7 +22,7 @@
 # 2011-03-16:	0.1.3: Added more regex parsers
 # 2011-11-15:   0.2.0: Added better handling of parsing ReportItem attributes and
 #               get_scanned_ip Target method.
-import sys
+# 2011-12-30:   0.2.3: Refactored, made PIP-friendly
 import re
 import xml.etree.ElementTree as ET
 from datetime import datetime
